@@ -17,7 +17,7 @@ class VerificationPage extends StatelessWidget {
         child: Column(
           children: [
             Text(
-                "Please click on verify link sent to your email id: $emailId!"),
+                "Click on verify link sent to your email id: $emailId!"),
             const SizedBox(height: 100,),
             const SizedBox(
               width: 250,
