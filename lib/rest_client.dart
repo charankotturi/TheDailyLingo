@@ -7,6 +7,7 @@ import 'package:thedailylingo/email_request.dart';
 
 import 'Constants.dart';
 
+// Api call to make verify email id request
 Future<Response> verifyEmailIdRequest(String emailId) async {
 
   final chuckerHttpClient = ChuckerHttpClient(http.Client());
